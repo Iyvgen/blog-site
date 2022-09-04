@@ -1,0 +1,126 @@
+import React, { Component } from "react";
+import {
+  Button,
+  Col,
+  Container,
+  Form,
+  FormLabel,
+  Nav,
+  Row,
+  Tab,
+  TabContainer,
+} from "react-bootstrap";
+
+export default class About extends Component {
+  render() {
+    return (
+      <Container>
+        <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+          <Row>
+            <Col sm={3}>
+              <Nav variant="pills" className="flex-column mt-2">
+                <Nav.Item>
+                  <Nav.Link eventKey="first">Design</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="second">Team</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="third">Programming</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="fourth">Framework</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="fifth">Libraries</Nav.Link>
+                </Nav.Item>
+              </Nav>
+            </Col>
+            <Col sm={9}>
+              <Tab.Content className="mt-3">
+                <Tab.Pane eventKey="first">
+                  <img
+                    className="d-block w-100 h-100px"
+                    src="https://images.pexels.com/photos/1001990/pexels-photo-1001990.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  />
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the
+                  </p>
+                </Tab.Pane>
+                <Tab.Pane eventKey="second">
+                  <img
+                    className="d-block w-100 h-100"
+                    src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  />
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the
+                  </p>
+                </Tab.Pane>
+                <Tab.Pane eventKey="third">
+                  <img
+                    className="d-block w-100 h-100"
+                    src="https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  />
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the
+                  </p>
+                </Tab.Pane>
+                <Tab.Pane eventKey="fourth">
+                  <img
+                    className="d-block w-100 h-100"
+                    src="https://images.pexels.com/photos/8124413/pexels-photo-8124413.jpeg?auto=compress&cs=tinysrgb&w=500"
+                  />
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the
+                  </p>
+                </Tab.Pane>
+                <Tab.Pane eventKey="fifth">
+                  <img
+                    className="d-block w-100 h-100"
+                    src="https://images.pexels.com/photos/1765033/pexels-photo-1765033.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  />
+                  <p>
+                    Lorem ipsum — классический текст-«рыба». Является искажённым
+                    отрывком из философского трактата Марка Туллия Цицерона «О
+                    пределах добра и зла», написанного в 45 году до н. э. на
+                    латинском языке
+                  </p>
+                </Tab.Pane>
+              </Tab.Content>
+            </Col>
+          </Row>
+        </Tab.Container>
+        <Row className="mt-5 mb-5" style={{ width: "50%" }}>
+          <h1 className="text-center">Contact</h1>
+          <Form>
+            <Form.Group controlId="formBasicEmail">
+              <Form.Label>Email adress</Form.Label>
+              <Form.Control type="email" placeholder="Enter email" />
+              <Form.Text>
+                We'll never share your email whith anyone else
+              </Form.Text>
+            </Form.Group>
+            <Form.Group controlId="formBasicPassword">
+              <Form.Label>Example textarea</Form.Label>
+              <Form.Control as="textarea" rows="3" />
+            </Form.Group>
+            <Form.Group controlId="formBasicCheckbox">
+              <Form.Check type="checkbox" label="Check me out" />
+            </Form.Group>
+            <Button variant="primary" type="submit">
+              Submit
+            </Button>
+          </Form>
+        </Row>
+      </Container>
+    );
+  }
+}
