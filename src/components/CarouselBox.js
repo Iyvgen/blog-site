@@ -9,7 +9,7 @@ export default class CarouselBox extends Component {
     return (
       <Carousel className="mt-3">
         <Carousel.Item>
-          <img className="d-block, w-100% " src={grAImg} alt="grA" />
+          <img className="d-block, w-100 " src={grAImg} alt="grA" />
           <Carousel.Caption>
             <h3>Greece impresses, surprises, inspires</h3>
             <p>
@@ -20,7 +20,7 @@ export default class CarouselBox extends Component {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block, w-100% h-100% " src={grBImg} alt="grB" />
+          <img className="d-block, w-100 h-100 " src={grBImg} alt="grB" />
           <Carousel.Caption>
             <h3>Greece impresses, surprises, inspires</h3>
             <p>
@@ -31,7 +31,7 @@ export default class CarouselBox extends Component {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block, w-100% " src={grCImg} alt="grC" />
+          <img className="d-block, w-100 " src={grCImg} alt="grC" />
           <Carousel.Caption>
             <h3>Greece impresses, surprises, inspires</h3>
             <p>

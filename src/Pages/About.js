@@ -18,7 +18,7 @@ export default class About extends Component {
         <Tab.Container id="left-tabs-example" defaultActiveKey="first">
           <Row>
             <Col sm={3}>
-              <Nav variant="pills" className="flex-column mt-2">
+              <Nav variant="pills" className="flex-column mt-3">
                 <Nav.Item>
                   <Nav.Link eventKey="first">Design</Nav.Link>
                 </Nav.Item>
@@ -43,7 +43,7 @@ export default class About extends Component {
                     className="d-block w-100 h-100px"
                     src="https://images.pexels.com/photos/1001990/pexels-photo-1001990.jpeg?auto=compress&cs=tinysrgb&w=600"
                   />
-                  <p>
+                  <p className="par1 mt-5">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the
@@ -54,7 +54,7 @@ export default class About extends Component {
                     className="d-block w-100 h-100"
                     src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600"
                   />
-                  <p>
+                  <p className="par2 mt-5">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the
@@ -65,7 +65,7 @@ export default class About extends Component {
                     className="d-block w-100 h-100"
                     src="https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&w=600"
                   />
-                  <p>
+                  <p className="par3 mt-5">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the
@@ -76,7 +76,7 @@ export default class About extends Component {
                     className="d-block w-100 h-100"
                     src="https://images.pexels.com/photos/8124413/pexels-photo-8124413.jpeg?auto=compress&cs=tinysrgb&w=500"
                   />
-                  <p>
+                  <p className="par4 mt-5">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the
@@ -87,7 +87,7 @@ export default class About extends Component {
                     className="d-block w-100 h-100"
                     src="https://images.pexels.com/photos/1765033/pexels-photo-1765033.jpeg?auto=compress&cs=tinysrgb&w=600"
                   />
-                  <p>
+                  <p className="par5 mt-5">
                     Lorem ipsum — классический текст-«рыба». Является искажённым
                     отрывком из философского трактата Марка Туллия Цицерона «О
                     пределах добра и зла», написанного в 45 году до н. э. на
@@ -115,7 +115,7 @@ export default class About extends Component {
             <Form.Group controlId="formBasicCheckbox">
               <Form.Check type="checkbox" label="Check me out" />
             </Form.Group>
-            <Button variant="primary" type="submit">
+            <Button className="mt-5" variant="primary" type="submit">
               Submit
             </Button>
           </Form>

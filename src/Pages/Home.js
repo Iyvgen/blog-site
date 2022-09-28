@@ -12,7 +12,7 @@ export default class Home extends Component {
           <Row md={3}>
             <Card>
               <Card.Img
-                className="d-block w-100 h-100"
+                className="d-block w-100 h-100 mt-2"
                 variant="top"
                 src="https://images.pexels.com/photos/1660915/pexels-photo-1660915.jpeg?auto=compress&cs=tinysrgb&w=400"
               />
@@ -28,7 +28,7 @@ export default class Home extends Component {
             </Card>
             <Card>
               <Card.Img
-                className="d-block w-100 h-100"
+                className="d-block w-100 h-100 mt-2"
                 variant="top"
                 src="https://images.pexels.com/photos/2290744/pexels-photo-2290744.jpeg?auto=compress&cs=tinysrgb&w=400"
               />
@@ -44,7 +44,7 @@ export default class Home extends Component {
             </Card>
             <Card>
               <Card.Img
-                className="d-block w-100 h-100 "
+                className="d-block w-100 h-100 mt-2"
                 variant="top"
                 src="https://images.pexels.com/photos/2611070/pexels-photo-2611070.jpeg?auto=compress&cs=tinysrgb&w=400"
               />
