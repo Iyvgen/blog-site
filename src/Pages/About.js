@@ -115,7 +115,7 @@ export default class About extends Component {
             <Form.Group controlId="formBasicCheckbox">
               <Form.Check type="checkbox" label="Check me out" />
             </Form.Group>
-            <Button className="mt-5" variant="primary" type="submit">
+            <Button className="mt-5 btn-home" variant="primary" type="submit">
               Submit
             </Button>
           </Form>

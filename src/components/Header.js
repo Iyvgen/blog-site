@@ -56,9 +56,15 @@ export default class header extends Component {
                     {"About"}
                   </Nav.Link>
                   <NavDropdown title="Categorys" id="nav-dropdown">
-                    <NavDropdown.Item eventKey="4.1">Food</NavDropdown.Item>
-                    <NavDropdown.Item eventKey="4.2">Dive</NavDropdown.Item>
-                    <NavDropdown.Item eventKey="4.3">History</NavDropdown.Item>
+                    <NavDropdown.Item eventKey="4.1" as={Link} to="/food">
+                      Food
+                    </NavDropdown.Item>
+                    <NavDropdown.Item eventKey="4.2" as={Link} to="/sport">
+                      Dive
+                    </NavDropdown.Item>
+                    <NavDropdown.Item eventKey="4.3" as={Link} to="/travel">
+                      History
+                    </NavDropdown.Item>
                     {/* <NavDropdown.Divider /> */}
                     {/* <NavDropdown.Item eventKey="4.4">
                       Separated link
@@ -83,7 +89,7 @@ export default class header extends Component {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="about" element={<About />} />
-            {/* <Route path="/" element={<Categories />} /> */}
+            {/* <Route path="Categories" element={<Categories />} /> */}
             {/* <Route path=":bg-nested-dropdown" element={<Categories />} /> */}
             <Route path="food" element={<Food />} />
             <Route path="travel" element={<Travel />} />
