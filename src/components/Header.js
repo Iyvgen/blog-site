@@ -53,7 +53,7 @@ export default class header extends Component {
                     {"Home"}
                   </Nav.Link>
                   <Nav.Link as={Link} to="/about">
-                    {"About"}
+                    {"About us"}
                   </Nav.Link>
                   <NavDropdown title="Categorys" id="nav-dropdown">
                     <NavDropdown.Item eventKey="4.1" as={Link} to="/food">
