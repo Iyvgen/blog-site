@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { CardGroup, Container, Card, Navbar, Button } from "react-bootstrap";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import OliveArticle from "./ArticleFood/OliveArticle";
 
 export default class Food extends Component {
   render() {
@@ -32,7 +34,13 @@ export default class Food extends Component {
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the
               </Card.Text>
-              <Button variant="primary" className="btn-home">
+              <Button
+                variant="primary"
+                className="btn-home"
+                as={Link}
+                to="/articlefood"
+              >
+                {""}
                 Read more
               </Button>
             </Card.Body>

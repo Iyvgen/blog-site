@@ -53,16 +53,26 @@ body {
   text-align: center;
  }
  .footer {
-  background-color: #1b5dd6;
+  background-color:  hsl(219, 79%, 51%);
   border-top:1px solid #ffffff;
   position: relative;
   width: 100%;  
   bottom: 0;
   color: white;
-  font-size: 15px;
- }
+  font-size: 12px;    
+ } 
  .footer-cont {
   cursor: pointer;
   margin-left: 10px;
   margin-top: 3px;
+ }
+ .elements-footer {
+  display: flex;  
+  justify-content: space-around;    ;
+  color: rgb(138, 133, 133);
+  font-size: 15px;
+  cursor: pointer;
+ }
+ .elements-footer:hover {
+  color: white;
  }

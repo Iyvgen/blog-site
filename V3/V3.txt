@@ -77,4 +77,10 @@ react-router scroll to top on every transition
 I have an issue when navigating into another page, its position will remain like the page before. So it won't scroll to top automatically.
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+https://www.geeksforgeeks.org/how-to-create-a-simple-responsive-footer-in-react-js/?ref=rp
+How to create a simple Responsive Footer in React JS ?
+
+Make A Footer In ReactJS | 2022
+React JS #11 - Work on footer and back to top component
+
 

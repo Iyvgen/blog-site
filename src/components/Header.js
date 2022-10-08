@@ -22,6 +22,9 @@ import Blog from "../Pages/Blog";
 import Food from "../Pages/Categories/Food";
 import Travel from "../Pages/Categories/Travel";
 import Sport from "../Pages/Categories/Sport";
+import OliveArticle from "../Pages/Categories/ArticleFood/OliveArticle";
+import ArticleDive from "../Pages/Categories/ArticleSport/ArticleDive";
+import ArticleAthens from "../Pages/Categories/ArticleTravel/ArticleAthens";
 
 export default class header extends Component {
   render() {
@@ -95,6 +98,9 @@ export default class header extends Component {
             <Route path="travel" element={<Travel />} />
             <Route path="sport" element={<Sport />} />
             <Route path="blog" element={<Blog />} />
+            <Route path="articlefood" element={<OliveArticle />} />
+            <Route path="articledive" element={<ArticleDive />} />
+            <Route path="articleathens" element={<ArticleAthens />} />
           </Routes>
         </Router>
       </>

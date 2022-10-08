@@ -7,7 +7,7 @@ import grCImg from "../assets/grC.jpg";
 export default class CarouselBox extends Component {
   render() {
     return (
-      <Carousel className="mt-3">
+      <Carousel className="mt-5">
         <Carousel.Item>
           <img className="d-block, w-100 " src={grAImg} alt="grA" />
           <Carousel.Caption>

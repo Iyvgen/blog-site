@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { CardGroup, Container, Card, Navbar, Button } from "react-bootstrap";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 export default class Sport extends Component {
   render() {
@@ -32,7 +33,13 @@ export default class Sport extends Component {
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the
               </Card.Text>
-              <Button variant="primary" className="btn-home">
+              <Button
+                variant="primary"
+                className="btn-home"
+                as={Link}
+                to="/articledive"
+              >
+                {""}
                 Read more
               </Button>
             </Card.Body>

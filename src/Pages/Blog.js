@@ -110,7 +110,7 @@ export default class Blog extends Component {
               <Card>
                 <ListGroup
                   variant="flush"
-                  className="text-start m-2 text-primary text-uppercase categories"
+                  className="text-start m-2  text-uppercase categories"
                 >
                   <Nav.Link as={Link} to="/food">
                     {"Food"}

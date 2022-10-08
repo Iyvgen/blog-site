@@ -3,13 +3,22 @@ import React, { Component } from "react";
 export default class Footer extends Component {
   render() {
     return (
-      <footer className="footer">
-        <div>
-          <li className="footer-cont">Contact</li>
-          <li className="footer-cont">About us</li>
+      <>
+        <div className="footer">
+          <div className="elements-footer">
+            <div>
+              <li className="footer-cont">Contact</li>
+              <li className="footer-cont">About us</li>
+            </div>
+            <div>
+              <li>facebook</li>
+              <li>twitter</li>
+              <li>telegram</li>
+            </div>
+          </div>
+          <p>© Your Website 2022. All Rights Reserved.</p>
         </div>
-        <p>© Your Website 2022. All Rights Reserved.</p>
-      </footer>
+      </>
     );
   }
 }
