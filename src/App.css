@@ -59,7 +59,8 @@ body {
   width: 100%;  
   bottom: 0;
   color: white;
-  font-size: 12px;    
+  font-size: 12px;   
+  box-shadow: 5px 2px 1px 2px #000000;   
  } 
  .footer-cont {
   cursor: pointer;
@@ -72,7 +73,10 @@ body {
   color: rgb(138, 133, 133);
   font-size: 15px;
   cursor: pointer;
+  
+ 
  }
  .elements-footer:hover {
   color: white;
+  transition: 1s ease;
  }

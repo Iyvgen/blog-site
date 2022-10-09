@@ -9,15 +9,15 @@ export default class Blog extends Component {
         <Container>
           <Row>
             <Col md="9">
-              <div class="d-flex">
-                <div class="d-flex align-items-center flex-shrink-1 mt-5">
+              <div className="d-flex">
+                <div className="d-flex align-items-center flex-shrink-1 mt-5">
                   <img
                     width={150}
                     height={150}
                     className="mr-3 mt-2"
                     src="https://images.pexels.com/photos/566345/pexels-photo-566345.jpeg?auto=compress&cs=tinysrgb&w=400"
                   />
-                  <div class="flex-grow-1 ms-3">
+                  <div className="flex-grow-1 ms-3">
                     <h5>Blog post. Food</h5>
                     <p>21 September, 2022 by Julia Ryzhkova</p>
                     <p>
@@ -28,15 +28,15 @@ export default class Blog extends Component {
                   </div>
                 </div>
               </div>
-              <div class="d-flex">
-                <div class="d-flex align-items-center flex-shrink-1 mt-5">
+              <div className="d-flex">
+                <div className="d-flex align-items-center flex-shrink-1 mt-5">
                   <img
                     width={150}
                     height={150}
                     className="mr-3 mt-2"
                     src="https://images.pexels.com/photos/4050076/pexels-photo-4050076.jpeg?auto=compress&cs=tinysrgb&w=400"
                   />
-                  <div class="flex-grow-1 ms-3">
+                  <div className="flex-grow-1 ms-3">
                     <h5>Blog post. Dive</h5>
                     <p>30 August, 2022 by Leonie Lacey</p>
                     <p>
@@ -47,15 +47,15 @@ export default class Blog extends Component {
                   </div>
                 </div>
               </div>
-              <div class="d-flex">
-                <div class="d-flex align-items-center flex-shrink-1 mt-5">
+              <div className="d-flex">
+                <div className="d-flex align-items-center flex-shrink-1 mt-5">
                   <img
                     width={150}
                     height={150}
                     className="mr-3 mt-2"
                     src="https://images.pexels.com/photos/4388164/pexels-photo-4388164.jpeg?auto=compress&cs=tinysrgb&w=400"
                   />
-                  <div class="flex-grow-1 ms-3">
+                  <div className="flex-grow-1 ms-3">
                     <h5>Blog post. History</h5>
                     <p>19 July, 2022 by Daria Roshchyna</p>
                     <p>
@@ -66,15 +66,15 @@ export default class Blog extends Component {
                   </div>
                 </div>
               </div>
-              <div class="d-flex">
-                <div class="d-flex align-items-center flex-shrink-1 mt-5">
+              <div className="d-flex">
+                <div className="d-flex align-items-center flex-shrink-1 mt-5">
                   <img
                     width={150}
                     height={150}
                     className="mr-3 mt-2"
                     src="https://images.pexels.com/photos/566345/pexels-photo-566345.jpeg?auto=compress&cs=tinysrgb&w=400"
                   />
-                  <div class="flex-grow-1 ms-3">
+                  <div className="flex-grow-1 ms-3">
                     <h5>Blog post. Food</h5>
                     <p>21 September, 2022 by Julia Ryzhkova</p>
                     <p>
@@ -85,15 +85,15 @@ export default class Blog extends Component {
                   </div>
                 </div>
               </div>
-              <div class="d-flex">
-                <div class="d-flex align-items-center flex-shrink-1 mt-5">
+              <div className="d-flex">
+                <div className="d-flex align-items-center flex-shrink-1 mt-5">
                   <img
                     width={150}
                     height={150}
                     className="mr-3 mt-2"
                     src="https://images.pexels.com/photos/566345/pexels-photo-566345.jpeg?auto=compress&cs=tinysrgb&w=400"
                   />
-                  <div class="flex-grow-1 ms-3">
+                  <div className="flex-grow-1 ms-3">
                     <h5>Blog post. Food</h5>
                     <p>21 September, 2022 by Julia Ryzhkova</p>
                     <p>
@@ -136,6 +136,7 @@ export default class Blog extends Component {
               </Card>
             </Col>
           </Row>
+          <br />
         </Container>
       </>
     );

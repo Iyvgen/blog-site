@@ -37,6 +37,7 @@ export default class header extends Component {
             expand="md"
             bg="primary"
             variant="dark"
+            className="navsection"
           >
             <Container>
               <Navbar.Brand href="/">

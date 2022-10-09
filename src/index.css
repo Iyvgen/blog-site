@@ -18,9 +18,14 @@ code {
 .categories {
   font-weight: bolder;
   text-decoration: none;    
-  color: rgb(183, 183, 240);
+  color: rgb(183, 183, 240);  
 }
 .categories:hover { 
   font-weight: bolder;   
-  color: rgb(45, 45, 241);
+  color: rgb(45, 45, 241);  
+  transition: 1s ease;
 }
+.navsection {
+  box-shadow: 1px 2px 5px #000000;  
+}
+

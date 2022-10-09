@@ -207,6 +207,7 @@ export default class Food extends Component {
             </Card.Footer>
           </Card>
         </CardGroup>
+        <br />
       </>
     );
   }

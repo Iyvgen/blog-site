@@ -206,6 +206,7 @@ export default class Sport extends Component {
             </Card.Footer>
           </Card>
         </CardGroup>
+        <br />
       </>
     );
   }

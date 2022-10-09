@@ -50,7 +50,7 @@ export default class Travel extends Component {
           <Card>
             <Card.Img
               variant="top"
-              src="https://images.pexels.com/photos/772689/pexels-photo-772689.jpeg?cs=srgb&dl=pexels-josiah-lewis-772689.jpg&fm=jpg"
+              src="https://images.pexels.com/photos/3224232/pexels-photo-3224232.jpeg?cs=srgb&dl=pexels-hert-niks-3224232.jpg&fm=jpg"
             />
             <Card.Body>
               <Card.Title>Western civilization</Card.Title>
@@ -146,7 +146,7 @@ export default class Travel extends Component {
           <Card>
             <Card.Img
               variant="top"
-              src="https://images.pexels.com/photos/772690/pexels-photo-772690.jpeg?cs=srgb&dl=pexels-josiah-lewis-772690.jpg&fm=jpg"
+              src="https://images.pexels.com/photos/3224230/pexels-photo-3224230.jpeg?cs=srgb&dl=pexels-hert-niks-3224230.jpg&fm=jpg"
             />
             <Card.Body>
               <Card.Title>Katharevousa</Card.Title>
@@ -206,6 +206,7 @@ export default class Travel extends Component {
             </Card.Footer>
           </Card>
         </CardGroup>
+        <br />
       </>
     );
   }
