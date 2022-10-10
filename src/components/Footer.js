@@ -7,10 +7,12 @@ export default class Footer extends Component {
         <div className="footer">
           <div className="elements-footer">
             <div>
+              <br />
               <li className="footer-cont">Contact</li>
               <li className="footer-cont">About us</li>
             </div>
             <div>
+              <br />
               <li>facebook</li>
               <li>twitter</li>
               <li>telegram</li>

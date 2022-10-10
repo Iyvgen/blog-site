@@ -1,14 +1,26 @@
 import React, { Component, useState } from "react";
 import { Container, Card, Button, Form } from "react-bootstrap";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import Likes from "../../../components/Likes";
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import { ToggleButton, toggleButtonClasses } from "@mui/material";
 
 export default class OliveArticle extends Component {
   constructor() {
     super();
     this.state = {
       comment: [],
+      // isLiked: [<FavoriteIcon />],
+      // disLiked: [<FavoriteBorderIcon />],
     };
     this.myRef = React.createRef();
   }
+
+  // likeChange = () => {
+  //   let isLiked = this.state.isLiked;
+  //   let disLiked = this.state.disLiked;
+  //   this.setState({ isLiked });
+  // };
 
   addComment = () => {
     let comment = this.myRef.current.value;
@@ -39,11 +51,21 @@ export default class OliveArticle extends Component {
                     Integer posuere erat a ante.{" "}
                   </p>
                   <footer className="blockquote-footer">
-                    Signed in as: <cite title="Source Title"> Mark Otto</cite>
+                    Signed in as: <cite title="Source Title"> Mark Otto </cite>
+                    {/* <Button
+                      style={{ marginLeft: "30px" }}
+                      variant="out lined"
+                      onClick={this.likeChange}
+                    >
+                      {isLiked ? <FavoriteIcon /> : <FavoriteBorderIcon />}
+                      <FavoriteBorderIcon fontSize="small" color="primary" />
+                    </Button> */}
                   </footer>
                 </blockquote>
               </Card.Body>
             </Card>
+            <br />
+            <Likes className="likes" />
             <br />
             <Card className="bg-dark text-white">
               <Card.Img

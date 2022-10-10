@@ -18,14 +18,21 @@ code {
 .categories {
   font-weight: bolder;
   text-decoration: none;    
-  color: rgb(183, 183, 240);  
+  color: #a8a8ee;  
 }
 .categories:hover { 
   font-weight: bolder;   
-  color: rgb(45, 45, 241);  
-  transition: 1s ease;
+  color: rgb(32, 88, 194);  
+  transition: 0.5s ease;
 }
 .navsection {
   box-shadow: 1px 2px 5px #000000;  
+}
+.likes {
+  color: aliceblue;
+  background-color: rgb(34, 116, 209);
+  border-radius: 3px;
+  border: 1px solid  rgb(32, 112, 202);
+  box-shadow: 1px 2px 5px #000000;
 }
 

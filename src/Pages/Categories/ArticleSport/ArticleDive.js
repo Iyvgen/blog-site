@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Container, Card, Form, Button } from "react-bootstrap";
+import Likes from "../../../components/Likes";
 
 export default class ArticleDive extends Component {
   constructor() {
@@ -45,6 +46,8 @@ export default class ArticleDive extends Component {
                   </blockquote>
                 </Card.Body>
               </Card>
+              <br />
+              <Likes className="likes" />
               <br />
               <Card className="bg-dark text-white">
                 <Card.Img
