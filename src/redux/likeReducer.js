@@ -5,7 +5,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   1: true,
   2: true,
-  3: false,
+  3: true,
 };
 
 export const likeSlice = createSlice({

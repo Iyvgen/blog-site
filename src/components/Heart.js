@@ -7,16 +7,26 @@ import { useSelector, useDispatch } from "react-redux";
 import { addLike, removeLike } from "../redux/likeReducer";
 
 function Heart() {
-  const isLiked = useSelector((state) => state.productsLikeState);
+  const isLiked = useSelector(
+    (state) => state.productsLikeState[productsArray]
+  );
   const dispatch = useDispatch();
-  console.log(isLiked);
+
   return (
     <div>
       <Button
         variant="outlined"
-        onClick={() => (isLiked ? dispatch(removeLike) : dispatch(addLike))}
+        onClick={() =>
+          isLiked
+            ? dispatch(removeLike(productsArray))
+            : dispatch(addLike(productsArray))
+        }
       >
-        {isLiked ? <FavoriteIcon color="primary" /> : <FavoriteBorderIcon />}
+        {isLiked ? (
+          <FavoriteIcon color="primary" />
+        ) : (
+          <FavoriteBorderIcon color="primary" />
+        )}
       </Button>
     </div>
   );

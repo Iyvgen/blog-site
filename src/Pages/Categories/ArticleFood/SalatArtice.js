@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Container, Card, Button, Form } from "react-bootstrap";
+import Avatar from "@mui/material/Avatar";
 import Likes from "../../../components/Likes";
 import Heart from "../../../components/Heart";
 
@@ -42,15 +43,11 @@ export default class SalatArtice extends Component {
                   </p>
                   <footer className="blockquote-footer">
                     Signed in as:{" "}
+                    <Avatar
+                      alt="Leonie Lacey"
+                      src="https://images.pexels.com/photos/9065286/pexels-photo-9065286.jpeg?cs=srgb&dl=pexels-rodnae-productions-9065286.jpg&fm=jpg"
+                    />
                     <cite title="Source Title"> Leonie Lacey </cite>
-                    {/* <Button
-                      style={{ marginLeft: "30px" }}
-                      variant="out lined"
-                      onClick={this.likeChange}
-                    >
-                      {isLiked ? <FavoriteIcon /> : <FavoriteBorderIcon />}
-                      <FavoriteBorderIcon fontSize="small" color="primary" />
-                    </Button> */}
                   </footer>
                 </blockquote>
               </Card.Body>

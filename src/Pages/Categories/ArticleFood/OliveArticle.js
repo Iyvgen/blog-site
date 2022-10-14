@@ -1,7 +1,6 @@
 import React, { Component, useState } from "react";
 import { Container, Card, Button, Form } from "react-bootstrap";
-import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
-import FavoriteIcon from "@mui/icons-material/Favorite";
+import Avatar from "@mui/material/Avatar";
 import Likes from "../../../components/Likes";
 import Heart from "../../../components/Heart";
 
@@ -10,17 +9,9 @@ export default class OliveArticle extends Component {
     super();
     this.state = {
       comment: [],
-      // isLiked: [<FavoriteIcon />],
-      // disLiked: [<FavoriteBorderIcon />],
     };
     this.myRef = React.createRef();
   }
-
-  // likeChange = () => {
-  //   let isLiked = this.state.isLiked;
-  //   let disLiked = this.state.disLiked;
-  //   this.setState({ isLiked });
-  // };
 
   addComment = () => {
     let comment = this.myRef.current.value;
@@ -53,15 +44,11 @@ export default class OliveArticle extends Component {
                   </p>
                   <footer className="blockquote-footer">
                     Signed in as:
+                    <Avatar
+                      alt="Mark Otto"
+                      src="https://images.pexels.com/photos/6720295/pexels-photo-6720295.jpeg?cs=srgb&dl=pexels-mariana-mileeva-6720295.jpg&fm=jpg"
+                    />
                     <cite title="Source Title"> Mark Otto </cite>
-                    {/* <Button
-                      style={{ marginLeft: "30px" }}
-                      variant="out lined"
-                      onClick={this.likeChange}
-                    >
-                      {isLiked ? <FavoriteIcon /> : <FavoriteBorderIcon />}
-                      <FavoriteBorderIcon fontSize="small" color="primary" />
-                    </Button> */}
                   </footer>
                 </blockquote>
               </Card.Body>

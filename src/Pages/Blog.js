@@ -15,12 +15,14 @@ export default class Blog extends Component {
                     width={150}
                     height={150}
                     className="mr-3 mt-2"
-                    src="https://images.pexels.com/photos/566345/pexels-photo-566345.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    src="https://images.pexels.com/photos/543733/pexels-photo-543733.jpeg?cs=srgb&dl=pexels-foodie-factor-543733.jpg&fm=jpg"
                   />
                   <div className="flex-grow-1 ms-3">
                     <h5>Blog post. Food</h5>
                     <Nav.Link as={Link} to="/articlefood2">
-                      {"Cheese and bread"} 💙
+                      {"Cheese and bread"}
+                      <br />
+                      💙
                     </Nav.Link>
                     <p>21 September, 2022 by Julia Ryzhkova </p>
                     <p>
@@ -41,7 +43,9 @@ export default class Blog extends Component {
                   />
                   <div className="flex-grow-1 ms-3">
                     <h5>Blog post. Dive</h5>
-                    <h6>Freediving it's fanny !</h6>
+                    <Nav.Link as={Link} to="/articledive">
+                      {"Freediving it's fanny !"}
+                    </Nav.Link>
                     <p>30 August, 2022 by Leonie Lacey</p>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
@@ -62,7 +66,8 @@ export default class Blog extends Component {
                   <div className="flex-grow-1 ms-3">
                     <h5>Blog post. History</h5>
                     <Nav.Link as={Link} to="/articleathens">
-                      {"Athens"} 💙
+                      {"Athens"} <br />
+                      💙
                     </Nav.Link>
                     <p>19 July, 2022 by Mark Otto</p>
                     <p>
@@ -79,12 +84,14 @@ export default class Blog extends Component {
                     width={150}
                     height={150}
                     className="mr-3 mt-2"
-                    src="https://images.pexels.com/photos/566345/pexels-photo-566345.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    src="https://images.pexels.com/photos/1022385/pexels-photo-1022385.jpeg?cs=srgb&dl=pexels-mareefe-1022385.jpg&fm=jpg"
                   />
                   <div className="flex-grow-1 ms-3">
                     <h5>Blog post. Food</h5>
                     <Nav.Link as={Link} to="/articlefood">
-                      {"Olive oil"} 💙
+                      {"Olive oil"}
+                      <br />
+                      💙
                     </Nav.Link>
                     <p>21 September, 2022 by Mark Otto</p>
                     <p>
@@ -101,12 +108,14 @@ export default class Blog extends Component {
                     width={150}
                     height={150}
                     className="mr-3 mt-2"
-                    src="https://images.pexels.com/photos/566345/pexels-photo-566345.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    src="https://images.pexels.com/photos/1640775/pexels-photo-1640775.jpeg?cs=srgb&dl=pexels-ella-olsson-1640775.jpg&fm=jpg"
                   />
                   <div className="flex-grow-1 ms-3">
                     <h5>Blog post. Food</h5>
                     <Nav.Link as={Link} to="/articlefood3">
-                      {"Fresh salat"} 💙
+                      {"Fresh salat"}
+                      <br />
+                      💙
                     </Nav.Link>
                     <p>21 September, 2022 by Leonie Lacey</p>
                     <p>
@@ -120,7 +129,7 @@ export default class Blog extends Component {
             </Col>
             <Col md="3">
               <h5 className="text-center mt-5 ">Categories</h5>
-              <Card>
+              <Card border="primary">
                 <ListGroup
                   variant="flush"
                   className="text-start m-2  text-uppercase categories"
@@ -137,7 +146,7 @@ export default class Blog extends Component {
                 </ListGroup>
               </Card>
 
-              <Card className="mt-3">
+              <Card className="mt-3" border="primary">
                 <Card.Body>
                   <Card.Title>Side widget</Card.Title>
                   <Card.Text>

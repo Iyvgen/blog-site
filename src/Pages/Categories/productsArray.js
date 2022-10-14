@@ -1,9 +1,3 @@
-// export Product = {
-//     id:number
-//     name:string
-//     description:string
-// }
-
 let productsArray = [
   {
     id: 1,
