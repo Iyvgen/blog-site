@@ -17,12 +17,12 @@ code {
 }
 .categories {
   font-weight: bolder;
-  text-decoration: none;    
-  color: #a8a8ee;  
+  text-decoration: none;       
+  color: rgb(32, 88, 194); 
 }
 .categories:hover { 
   font-weight: bolder;   
-  color: rgb(32, 88, 194);  
+  color: #9797c4; 
   transition: 0.5s ease;
 }
 .navsection {

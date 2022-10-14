@@ -19,7 +19,10 @@ export default class Blog extends Component {
                   />
                   <div className="flex-grow-1 ms-3">
                     <h5>Blog post. Food</h5>
-                    <p>21 September, 2022 by Julia Ryzhkova</p>
+                    <Nav.Link as={Link} to="/articlefood2">
+                      {"Cheese and bread"} 💙
+                    </Nav.Link>
+                    <p>21 September, 2022 by Julia Ryzhkova </p>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
@@ -38,6 +41,7 @@ export default class Blog extends Component {
                   />
                   <div className="flex-grow-1 ms-3">
                     <h5>Blog post. Dive</h5>
+                    <h6>Freediving it's fanny !</h6>
                     <p>30 August, 2022 by Leonie Lacey</p>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
@@ -57,7 +61,10 @@ export default class Blog extends Component {
                   />
                   <div className="flex-grow-1 ms-3">
                     <h5>Blog post. History</h5>
-                    <p>19 July, 2022 by Daria Roshchyna</p>
+                    <Nav.Link as={Link} to="/articleathens">
+                      {"Athens"} 💙
+                    </Nav.Link>
+                    <p>19 July, 2022 by Mark Otto</p>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
@@ -76,7 +83,10 @@ export default class Blog extends Component {
                   />
                   <div className="flex-grow-1 ms-3">
                     <h5>Blog post. Food</h5>
-                    <p>21 September, 2022 by Julia Ryzhkova</p>
+                    <Nav.Link as={Link} to="/articlefood">
+                      {"Olive oil"} 💙
+                    </Nav.Link>
+                    <p>21 September, 2022 by Mark Otto</p>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
@@ -95,7 +105,10 @@ export default class Blog extends Component {
                   />
                   <div className="flex-grow-1 ms-3">
                     <h5>Blog post. Food</h5>
-                    <p>21 September, 2022 by Julia Ryzhkova</p>
+                    <Nav.Link as={Link} to="/articlefood3">
+                      {"Fresh salat"} 💙
+                    </Nav.Link>
+                    <p>21 September, 2022 by Leonie Lacey</p>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's

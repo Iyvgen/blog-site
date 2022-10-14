@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import { Container, Card, Form, Button } from "react-bootstrap";
+import { Container, Card, Button, Form } from "react-bootstrap";
 import Likes from "../../../components/Likes";
+import Heart from "../../../components/Heart";
 
-export default class ArticleAthens extends Component {
+export default class SalatArtice extends Component {
   constructor() {
     super();
     this.state = {
@@ -29,7 +30,7 @@ export default class ArticleAthens extends Component {
             <Card>
               <Card.Header>
                 {" "}
-                <h1>Athens</h1>
+                <h1>Fresh salat</h1>
               </Card.Header>
               <br />
               <Card.Body>
@@ -40,8 +41,16 @@ export default class ArticleAthens extends Component {
                     Integer posuere erat a ante.{" "}
                   </p>
                   <footer className="blockquote-footer">
-                    Signed in as:
-                    <cite title="Source Title"> Mark Otto</cite>
+                    Signed in as:{" "}
+                    <cite title="Source Title"> Leonie Lacey </cite>
+                    {/* <Button
+                      style={{ marginLeft: "30px" }}
+                      variant="out lined"
+                      onClick={this.likeChange}
+                    >
+                      {isLiked ? <FavoriteIcon /> : <FavoriteBorderIcon />}
+                      <FavoriteBorderIcon fontSize="small" color="primary" />
+                    </Button> */}
                   </footer>
                 </blockquote>
               </Card.Body>
@@ -49,28 +58,28 @@ export default class ArticleAthens extends Component {
             <br />
             <Likes className="likes" />
             <br />
+            <Heart className="heart" />
+            <br />
             <Card className="bg-dark text-white">
               <Card.Img
-                src="https://images.pexels.com/photos/6336038/pexels-photo-6336038.jpeg?cs=srgb&dl=pexels-tom-d%27arby-6336038.jpg&fm=jpg"
+                src="https://images.pexels.com/photos/5677721/pexels-photo-5677721.jpeg?cs=srgb&dl=pexels-viktoria-slowikowska-5677721.jpg&fm=jpg"
                 alt="Card image"
               />
               <Card.ImgOverlay>
-                <Card.Title>Athens</Card.Title>
+                <Card.Title>Fresh salat</Card.Title>
 
                 <Card.Text>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer posuere erat a ante.
                 </Card.Text>
-                <Card.Text>Last updated 30 mins ago</Card.Text>
+                <Card.Text>Last updated 20 mins ago</Card.Text>
               </Card.ImgOverlay>
             </Card>
             <br />
             <Card border="primary" style={{ width: "70rem" }}>
-              <Card.Header>Athens</Card.Header>
+              <Card.Header>Fresh salat</Card.Header>
               <Card.Body>
-                <Card.Title>
-                  Athens it's history Europien civilization
-                </Card.Title>
+                <Card.Title>Fresh salat it's way of healthy.</Card.Title>
                 <Card.Text>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum

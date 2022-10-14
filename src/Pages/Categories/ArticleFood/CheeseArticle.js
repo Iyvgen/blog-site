@@ -1,8 +1,10 @@
 import React, { Component } from "react";
-import { Container, Card, Form, Button } from "react-bootstrap";
+import { Container, Card, Button, Form } from "react-bootstrap";
+import Avatar from "@mui/material/Avatar";
 import Likes from "../../../components/Likes";
+import Heart from "../../../components/Heart";
 
-export default class ArticleAthens extends Component {
+export default class CheeseArticle extends Component {
   constructor() {
     super();
     this.state = {
@@ -29,7 +31,7 @@ export default class ArticleAthens extends Component {
             <Card>
               <Card.Header>
                 {" "}
-                <h1>Athens</h1>
+                <h1>Cheese and bread</h1>
               </Card.Header>
               <br />
               <Card.Body>
@@ -40,8 +42,12 @@ export default class ArticleAthens extends Component {
                     Integer posuere erat a ante.{" "}
                   </p>
                   <footer className="blockquote-footer">
-                    Signed in as:
-                    <cite title="Source Title"> Mark Otto</cite>
+                    Signed in as:{" "}
+                    <Avatar
+                      alt="Julia Ryzhkova"
+                      src="https://images.pexels.com/photos/3754677/pexels-photo-3754677.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3754677.jpg&fm=jpg"
+                    />
+                    <cite title="Source Title"> Julia Ryzhkova </cite>
                   </footer>
                 </blockquote>
               </Card.Body>
@@ -49,28 +55,28 @@ export default class ArticleAthens extends Component {
             <br />
             <Likes className="likes" />
             <br />
+            <Heart className="heart" />
+            <br />
             <Card className="bg-dark text-white">
               <Card.Img
-                src="https://images.pexels.com/photos/6336038/pexels-photo-6336038.jpeg?cs=srgb&dl=pexels-tom-d%27arby-6336038.jpg&fm=jpg"
+                src="https://images.pexels.com/photos/5732753/pexels-photo-5732753.jpeg?cs=srgb&dl=pexels-laker-5732753.jpg&fm=jpg"
                 alt="Card image"
               />
               <Card.ImgOverlay>
-                <Card.Title>Athens</Card.Title>
+                <Card.Title>Cheese and bread</Card.Title>
 
                 <Card.Text>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer posuere erat a ante.
                 </Card.Text>
-                <Card.Text>Last updated 30 mins ago</Card.Text>
+                <Card.Text>Last updated 20 mins ago</Card.Text>
               </Card.ImgOverlay>
             </Card>
             <br />
             <Card border="primary" style={{ width: "70rem" }}>
-              <Card.Header>Athens</Card.Header>
+              <Card.Header>Cheese and bread</Card.Header>
               <Card.Body>
-                <Card.Title>
-                  Athens it's history Europien civilization
-                </Card.Title>
+                <Card.Title>Cheese and bread.</Card.Title>
                 <Card.Text>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum

@@ -71,7 +71,13 @@ export default class Food extends Component {
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the
               </Card.Text>
-              <Button variant="primary" className="btn-home">
+              <Button
+                variant="primary"
+                className="btn-home"
+                as={Link}
+                to="/articlefood2"
+              >
+                {""}
                 Read more
               </Button>
             </Card.Body>
@@ -102,7 +108,13 @@ export default class Food extends Component {
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the
               </Card.Text>
-              <Button variant="primary" className="btn-home">
+              <Button
+                variant="primary"
+                className="btn-home"
+                as={Link}
+                to="/articlefood3"
+              >
+                {""}
                 Read more
               </Button>
             </Card.Body>
