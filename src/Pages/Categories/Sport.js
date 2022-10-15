@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { CardGroup, Container, Card, Navbar, Button } from "react-bootstrap";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default class Sport extends Component {
   render() {

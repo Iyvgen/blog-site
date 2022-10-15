@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Col, Container, ListGroup, Row, Card, Nav } from "react-bootstrap";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default class Blog extends Component {
   render() {
@@ -12,6 +12,7 @@ export default class Blog extends Component {
               <div className="d-flex">
                 <div className="d-flex align-items-center flex-shrink-1 mt-5">
                   <img
+                    alt="px"
                     width={150}
                     height={150}
                     className="mr-3 mt-2"
@@ -36,6 +37,7 @@ export default class Blog extends Component {
               <div className="d-flex">
                 <div className="d-flex align-items-center flex-shrink-1 mt-5">
                   <img
+                    alt="px"
                     width={150}
                     height={150}
                     className="mr-3 mt-2"
@@ -58,6 +60,7 @@ export default class Blog extends Component {
               <div className="d-flex">
                 <div className="d-flex align-items-center flex-shrink-1 mt-5">
                   <img
+                    alt="px"
                     width={150}
                     height={150}
                     className="mr-3 mt-2"
@@ -81,6 +84,7 @@ export default class Blog extends Component {
               <div className="d-flex">
                 <div className="d-flex align-items-center flex-shrink-1 mt-5">
                   <img
+                    alt="px"
                     width={150}
                     height={150}
                     className="mr-3 mt-2"
@@ -105,6 +109,7 @@ export default class Blog extends Component {
               <div className="d-flex">
                 <div className="d-flex align-items-center flex-shrink-1 mt-5">
                   <img
+                    alt="px"
                     width={150}
                     height={150}
                     className="mr-3 mt-2"

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { Button, Card, Container, Row, Nav } from "react-bootstrap";
+import { Button, Card, Row } from "react-bootstrap";
 import CarouselBox from "../components/CarouselBox";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default class Home extends Component {
   render() {

@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import { Container, Card, Button, Form } from "react-bootstrap";
 import Avatar from "@mui/material/Avatar";
 import Likes from "../../../components/Likes";

@@ -1,15 +1,5 @@
 import React, { Component } from "react";
-import {
-  Button,
-  Col,
-  Container,
-  Form,
-  FormLabel,
-  Nav,
-  Row,
-  Tab,
-  TabContainer,
-} from "react-bootstrap";
+import { Button, Col, Container, Form, Nav, Row, Tab } from "react-bootstrap";
 
 export default class About extends Component {
   render() {
@@ -40,6 +30,7 @@ export default class About extends Component {
               <Tab.Content className="mt-3">
                 <Tab.Pane eventKey="first">
                   <img
+                    alt="px"
                     className="d-block w-100 h-100px"
                     src="https://images.pexels.com/photos/1001990/pexels-photo-1001990.jpeg?auto=compress&cs=tinysrgb&w=600"
                   />
@@ -66,6 +57,7 @@ export default class About extends Component {
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
                   <img
+                    alt="px"
                     className="d-block w-100 h-100"
                     src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600"
                   />
@@ -77,6 +69,7 @@ export default class About extends Component {
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
                   <img
+                    alt="px"
                     className="d-block w-100 h-100"
                     src="https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&w=600"
                   />
@@ -88,6 +81,7 @@ export default class About extends Component {
                 </Tab.Pane>
                 <Tab.Pane eventKey="fourth">
                   <img
+                    alt="px"
                     className="d-block w-100 h-100"
                     src="https://images.pexels.com/photos/8124413/pexels-photo-8124413.jpeg?auto=compress&cs=tinysrgb&w=500"
                   />
@@ -99,6 +93,7 @@ export default class About extends Component {
                 </Tab.Pane>
                 <Tab.Pane eventKey="fifth">
                   <img
+                    alt="px"
                     className="d-block w-100 h-100"
                     src="https://images.pexels.com/photos/1765033/pexels-photo-1765033.jpeg?auto=compress&cs=tinysrgb&w=600"
                   />

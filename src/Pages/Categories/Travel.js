@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { CardGroup, Container, Card, Navbar, Button } from "react-bootstrap";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default class Travel extends Component {
   render() {
