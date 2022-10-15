@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { CardGroup, Container, Card, Navbar, Button } from "react-bootstrap";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import OliveArticle from "./ArticleFood/OliveArticle";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import { useSelector, useDispatch } from "react-redux";
@@ -10,7 +9,7 @@ import productsArray from "./productsArray";
 
 function Food() {
   const isLiked = useSelector(
-    (state) => state.productsLikeState[productsArray]
+    (state) => state.productsLikeState[[productsArray].id]
   );
   return (
     <>

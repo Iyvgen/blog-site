@@ -1,12 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-// const id = { number };
-
-const initialState = {
-  1: true,
-  2: true,
-  3: true,
-};
+const initialState = {};
 
 export const likeSlice = createSlice({
   name: "like",

@@ -8,7 +8,7 @@ import { addLike, removeLike } from "../redux/likeReducer";
 
 function Heart() {
   const isLiked = useSelector(
-    (state) => state.productsLikeState[productsArray]
+    (state) => state.productsLikeState[[productsArray].id]
   );
   const dispatch = useDispatch();
 
@@ -18,8 +18,8 @@ function Heart() {
         variant="outlined"
         onClick={() =>
           isLiked
-            ? dispatch(removeLike(productsArray))
-            : dispatch(addLike(productsArray))
+            ? dispatch(removeLike(productsArray[[productsArray].id]))
+            : dispatch(addLike(productsArray[[productsArray].id]))
         }
       >
         {isLiked ? (
