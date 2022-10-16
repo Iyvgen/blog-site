@@ -22,6 +22,7 @@ import ArticleDive from "../Pages/Categories/ArticleSport/ArticleDive";
 import ArticleAthens from "../Pages/Categories/ArticleTravel/ArticleAthens";
 import CheeseArticle from "../Pages/Categories/ArticleFood/CheeseArticle";
 import SalatArtice from "../Pages/Categories/ArticleFood/SalatArtice";
+import ToTopButtom from "./ToTopButton";
 
 export default class header extends Component {
   render() {
@@ -97,6 +98,7 @@ export default class header extends Component {
             <Route path="articlefood3" element={<SalatArtice />} />
           </Routes>
         </Router>
+        <ToTopButtom variant="primary" />
       </>
     );
   }
